@@ -1,0 +1,126 @@
+# DevOps Lab - Task 1: GitHub Staging Branch
+
+## 📌 Objective
+
+The objective of this task is to create a staging branch in GitHub, push code from a local repository to a remote repository, and verify the changes.
+
+---
+
+## 🛠️ Tools Used
+
+* Git
+* Git Bash / Linux Terminal
+* GitHub
+
+---
+
+## 📁 Project Setup
+
+### Step 1: Create a Local Project Folder
+
+```bash
+mkdir DevOps-Lab
+cd DevOps-Lab
+```
+
+---
+
+### Step 2: Create a Sample File
+
+```bash
+echo "My DevOps Lab Project" > index.html
+```
+
+---
+
+### Step 3: Initialize Git Repository
+
+```bash
+git init
+```
+
+---
+
+### Step 4: Add Files to Staging Area
+
+```bash
+git add .
+```
+
+---
+
+### Step 5: Commit Changes
+
+```bash
+git commit -m "Initial commit"
+```
+
+---
+
+### Step 6: Connect to Remote Repository
+
+```bash
+git remote add origin https://github.com/Madan-dotcom/DevOps-Lab.git
+```
+
+---
+
+### Step 7: Rename Branch to Main
+
+```bash
+git branch -M main
+```
+
+---
+
+### Step 8: Push Code to GitHub
+
+```bash
+git push -u origin main
+```
+
+---
+
+## 🌿 Creating Staging Branch
+
+### Step 9: Create and Switch to Staging Branch
+
+```bash
+git checkout -b staging
+```
+
+---
+
+### Step 10: Push Staging Branch to GitHub
+
+```bash
+git push -u origin staging
+```
+
+---
+
+## 📸 Output
+
+* Successfully pushed code to GitHub repository.
+* Created and pushed a staging branch.
+* Verified both `main` and `staging` branches on GitHub.
+
+---
+
+## ✅ Result
+
+The staging branch was successfully created and pushed to the remote repository. The task demonstrates basic Git operations including initialization, committing, branching, and pushing code.
+
+---
+
+## 📚 Conclusion
+
+This task helped in understanding how to:
+
+* Initialize a Git repository
+* Track and commit changes
+* Connect to GitHub
+* Create and manage branches
+
+---
+
